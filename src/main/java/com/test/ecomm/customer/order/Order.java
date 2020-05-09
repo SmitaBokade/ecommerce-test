@@ -13,6 +13,7 @@ public class Order {
     @Id
     private String orderId;
     private List<String> productId;
+    private String orderBy;
 
 }
 
